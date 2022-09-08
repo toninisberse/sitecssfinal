@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Fale conosco</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navcabecalho">
+      <img class="cabecalho-img" src="logo.png" alt="logo">
+      <nav class="cabecalho-nome">Joalheria Esmeralda</nav>
+    </nav>
+    <nav class="cabecalho-menu">
+      <a href="index.html">Voltar para Home</a>
+    </nav>
+  </header>
+
+    <H1 class="titulo-contato">Entre em contato conosco</H1>
+    <div class="row">
+      <div class="col">
+        <H1>Esmeralda I e Esmeralda II</H1>
+    <H1>Instagram: @esmeralda.joalheria</H1>
+    <H1>Facebook: esmeraldajoalheria</H1>
+    <H1>Email: esmeralda@joalheria.com.br</H1>
+    <H1>WhatsApp: (49) 9 8765-4321 (Esmeralda I - Il Centenário)</H1>
+    <H1>WhatsApp: (49) 9 1234-5678 (Esmeralda II - Pátio Shopping)</H1>
+    </div>
+
+    <div class="col">
+      
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Envie o seu depoimento
+</button>
+    </div>
+
+    </div>
+    <br><br><br>
+    <div class="row">
+      <footer>
+        <div class="row justify-content-center bg-dark text-light py-4 mt-4">
+          <div class="col-auto">
+            Desenvolvido por Priscila Luisa Tonini Sberse
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Quer compartilhar sua opinião? Envie seu depoimento!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input class="form-control" type="text" aria-label="default input example">
+            <br>
+            
+            <label for="exampleFormControlInput1" class="form-label">Avalie sua compra</label>
+            <div class="cards">
+            
+                  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <div class="estrelas">
+              <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+              <label for="cm_star-1"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-1" name="fb" value="1" />
+              <label for="cm_star-2"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-2" name="fb" value="2" />
+              <label for="cm_star-3"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-3" name="fb" value="3" />
+              <label for="cm_star-4"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-4" name="fb" value="4" />
+              <label for="cm_star-5"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-5" name="fb" value="5" />
+            </div>
+                </div>
+             <br>
+            
+                <label for="exampleFormControlTextarea1" class="form-label">Descreva sua experiência</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </select>
+              <br>
+              
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal" aria-label="Close">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+</body>
+<footer>
+  <div class="row justify-content-center bg-dark text-light py-3 mt-4">
+    <div class="col-auto">
+      Desenvolvido por Priscila Luisa Tonini Sberse
+    </div>
+  </div>
+</footer>
+</html>
